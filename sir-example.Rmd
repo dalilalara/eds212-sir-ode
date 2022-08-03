@@ -60,7 +60,7 @@ approx_long <- approx_df %>%
 ```
 
 ## Plot the output with ggplot:
-```{r}
+```{r}_git
 ggplot(data = approx_long, aes(x = time, y = proportion)) +
   geom_line(aes(color = population))
 ```
